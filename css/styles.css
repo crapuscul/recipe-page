@@ -1,0 +1,105 @@
+/* home */
+body {
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+
+}
+body p{
+   color: hsl(30, 10%, 34%);
+   font-size: 16px;
+}
+img{
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 100%);
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.main-level2{
+    padding: 4%;
+    
+}
+.prepTime{
+    background:hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+
+    
+}
+.prepTime h4, ul{
+    margin: 0;
+    padding-left: 4%;
+}
+.prepTime ul{
+    list-style-position: inside;
+}
+.prepTime ul li{
+    margin-top: 4%;
+    color: hsl(30, 10%, 34%);
+
+}
+.prepTime ul li::marker{
+    content: "• ";
+    margin-right: 10%; 
+}
+.prepTime h4{
+    color: hsl(332, 51%, 32%);
+    
+}
+.prepTime span{
+    font-weight: 600;
+}
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li{
+    color: hsl(30, 10%, 34%);   
+    text-indent: -0.5em;
+}
+.ingredients ul{
+    list-style-position: inside;
+    padding-left: 2%;
+}
+.instructions h2{
+    color: hsl(14, 45%, 36%);
+}
+.instructions ol{
+    padding: 2%;
+    color: hsl(30, 10%, 34%);
+    
+}
+.instructions ol li{
+    padding-left: 2%;
+    
+}
+.instructions ol li::marker{
+     color: hsl(14, 45%, 36%);;
+}
+.instructions span{
+    font-weight: 600;
+}
+
+.nutrition{
+    color: hsl(30, 10%, 34%);
+}
+.nutrition h2{
+    color:hsl(14, 45%, 36%) ;
+}
+.content-table{
+    border-collapse: collapse;
+}
